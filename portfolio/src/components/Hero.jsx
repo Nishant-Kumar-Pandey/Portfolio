@@ -53,7 +53,7 @@ const Hero = () => {
             </div>
             <div className="code-block">
               <div className="code-line"><span className="keyword">const</span> <span className="variable">developer</span> = <span className="brace">{`{`}</span></div>
-              <div className="code-line indent">  name: <span className="string">'Vikas'</span>,</div>
+              <div className="code-line indent">  name: <span className="string">'Nishant Kumar Pandey'</span>,</div>
               <div className="code-line indent">  skills: [<span className="string">'React'</span>, <span className="string">'Node'</span>],</div>
               <div className="code-line indent">  passion: <span className="boolean">true</span></div>
               <div className="code-line"><span className="brace">{`}`}</span>;</div>
