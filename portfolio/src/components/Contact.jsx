@@ -33,9 +33,9 @@ function Contact() {
           </p>
 
           <ul className="list">
-            <li>Email: vikas.kumar2@geeksforgeeks.org</li>
-            <li>GitHub: https://github.com/vikasthakurr?tab=repositories</li>
-            <li>LinkedIn: https://www.linkedin.com/in/vikasthakurr/</li>
+            <li>Email: [EMAIL_ADDRESS]</li>
+            <li>GitHub: https://github.com/Nishant-Kumar-Pandey</li>
+            <li>LinkedIn: https://www.linkedin.com/in/nishant-pandey-ab7084381/</li>
           </ul>
         </div>
 
