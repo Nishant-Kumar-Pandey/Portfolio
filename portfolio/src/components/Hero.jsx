@@ -15,7 +15,7 @@ const Hero = () => {
             That Matter.
           </h1>
           <p className="hero-subtitle">
-            I'm <span className="highlight">Vikas Kumar</span>, a full-stack engineer 
+            I'm <span className="highlight">Nishant Kumar Pandey</span>, a full-stack engineer 
             transforming ideas into scalable, high-performance web applications.
           </p>
 
