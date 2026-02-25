@@ -1,30 +1,30 @@
 const project = [
   {
-    title: "TaskMate – Productivity Dashboard",
-    tagline: "Smart task manager with persistent storage.",
+    title: "Ecom App – Full Stack E-Commerce",
+    tagline: "End-to-end online shopping experience.",
     description:
-      "A modern task management web app that lets users create, track, and filter tasks with clean UI and localStorage persistence.",
-    tech: ["React", "JavaScript", "CSS"],
+      "A complete e-commerce platform with product listings, user auth, cart management, order processing, and an admin dashboard — built on the MERN stack.",
+    tech: ["MongoDB", "Express.js", "React", "Node.js"],
     demo: "",
-    code: "",
+    code: "https://github.com/Nishant-Kumar-Pandey/Ecom-App",
   },
   {
-    title: "QuickSlot – Booking System",
-    tagline: "Real-time slot booking with dynamic UI.",
+    title: "Prescription AI – Smart Health Assistant",
+    tagline: "AI-powered prescription analysis & explanation.",
     description:
-      "A responsive booking interface that loads providers, shows available time slots, and lets users reserve appointments easily.",
-    tech: ["React", "Bootstrap", "REST API"],
+      "A MERN web app that lets users upload prescriptions and receive AI-generated plain-language explanations, dosage guidance, and drug interaction alerts.",
+    tech: ["MongoDB", "Express.js", "React", "Node.js"],
     demo: "",
-    code: "",
+    code: "https://github.com/Nishant-Kumar-Pandey/Prescription",
   },
   {
-    title: "SplitEasy – Expense Splitter",
-    tagline: "Track and split group expenses effortlessly.",
+    title: "Calculator – MERN Stack",
+    tagline: "Full-stack calculator with history persistence.",
     description:
-      "A Splitwise-inspired app that tracks who owes what in a group, with clear breakdowns and shareable summaries.",
-    tech: ["React", "Node.js", "MongoDB"],
+      "A feature-rich calculator built on the MERN stack that saves calculation history per user, supports expression evaluation, and syncs across sessions.",
+    tech: ["MongoDB", "Express.js", "React", "Node.js"],
     demo: "",
-    code: "",
+    code: "https://github.com/Nishant-Kumar-Pandey/N-GFG/tree/main/React/calculator",
   },
 ];
 

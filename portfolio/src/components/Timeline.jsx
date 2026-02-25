@@ -1,3 +1,5 @@
+import React from "react";
+
 const timelineItems = [
   {
     year: "Now",
@@ -19,8 +21,6 @@ const timelineItems = [
   },
 ];
 
-import React from "react";
-
 const Timeline = () => {
   return (
     <section className="section alt" id="timeline">
@@ -32,8 +32,8 @@ const Timeline = () => {
 
         <div className="timeline">
           {timelineItems.map((item, index) => (
-            <div 
-              className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`} 
+            <div
+              className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}
               key={item.year}
             >
               <div className="timeline-dot" />

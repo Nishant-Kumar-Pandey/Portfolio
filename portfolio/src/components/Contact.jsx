@@ -1,25 +1,28 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  function handleChange(e) {
-    const { name, value } = e.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
-  }
+  const formRef = useRef(null);
+  const [status, setStatus] = useState("idle"); // idle | sending | success | error
 
   function handleSubmit(e) {
     e.preventDefault();
-    alert(
-      `Thanks, ${
-        form.name || "there"
-      }! In a real app this would send your message.`
-    );
-    setForm({ name: "", email: "", message: "" });
+    setStatus("sending");
+
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formRef.current,
+        { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+      )
+      .then(() => {
+        setStatus("success");
+        formRef.current.reset();
+      })
+      .catch(() => {
+        setStatus("error");
+      });
   }
 
   return (
@@ -33,9 +36,34 @@ function Contact() {
           </p>
 
           <ul className="list">
-            <li>Email: [EMAIL_ADDRESS]</li>
-            <li>GitHub: https://github.com/Nishant-Kumar-Pandey</li>
-            <li>LinkedIn: https://www.linkedin.com/in/nishant-pandey-ab7084381/</li>
+            <li>
+              📧{" "}
+              <a href="mailto:nishantpandey669@gmail.com" className="contact-link">
+                nishantpandey669@gmail.com
+              </a>
+            </li>
+            <li>
+              🐙{" "}
+              <a
+                href="https://github.com/Nishant-Kumar-Pandey"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                github.com/Nishant-Kumar-Pandey
+              </a>
+            </li>
+            <li>
+              💼{" "}
+              <a
+                href="https://www.linkedin.com/in/nishant-pandey-ab7084381/"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                linkedin.com/in/nishant-pandey
+              </a>
+            </li>
           </ul>
         </div>
 
