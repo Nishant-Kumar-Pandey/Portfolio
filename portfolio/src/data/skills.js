@@ -21,7 +21,7 @@ const skills = [
       "VS Code",
       "CI/CD basics",
       "Code Reviews",
-      "Mentoring",
+      
     ],
   },
 ];

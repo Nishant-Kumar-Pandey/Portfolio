@@ -6,7 +6,7 @@ const About = () => {
       <div className="container">
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle">
-          Full stack engineer & mentor with a passion for clean code, clear
+          Full stack engineer with a passion for clean code, clear
           explanations, and practical learning.
         </p>
 
@@ -15,14 +15,10 @@ const About = () => {
             <div className="card-icon">🚀</div>
             <h3>Who I Am</h3>
             <p>
-              I&apos;m a full stack developer specialising in React, Next.js,
-              Node.js, and modern JavaScript tooling. I love turning complex
-              ideas into simple, usable interfaces.
+             I’m a full-stack developer specializing in the MERN stack and modern JavaScript. My journey began with Python in 2021, which built my foundation in logical thinking and problem solving.
             </p>
             <p>
-              Over the years, I&apos;ve mentored thousands of students, helping
-              them understand not just &quot;what&quot; to do, but
-              &quot;why&quot; it works.
+              I enjoy turning complex problems into clean, efficient, and user-friendly solutions. I focus on writing structured code and building systems that are scalable and practical.
             </p>
           </div>
 
@@ -36,15 +32,15 @@ const About = () => {
               </li>
               <li>
                 <span className="bullet">▹</span>
-                Guide learners through real-world projects
+                Develop AI-powered applications with API integration and automation
               </li>
               <li>
                 <span className="bullet">▹</span>
-                Career planning & technical interview prep
+                Design RESTful APIs and connect frontend with backend systems
               </li>
               <li>
                 <span className="bullet">▹</span>
-                Workshops on modern web development
+                Continuously improve through competitive coding and hackathons
               </li>
             </ul>
           </div>

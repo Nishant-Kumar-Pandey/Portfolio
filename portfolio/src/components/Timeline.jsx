@@ -3,21 +3,21 @@ import React from "react";
 const timelineItems = [
   {
     year: "Now",
-    title: "Full Stack Mentor & Engineer",
+    title: "AI & Full-Stack Engineer",
     description:
-      "Teaching MERN stack, reviewing code, and helping learners build real-world projects.",
+      "Developing AI-powered applications integrating APIs, voice input, file processing, and intelligent automation, Focused on building scalable, production-ready systems with strong backend logic and seamless user experience.",
   },
   {
-    year: "2022",
-    title: "Senior Frontend Engineer",
+    year: "2023",
+    title: "Expanding Technical Foundations",
     description:
-      "Led React & Next.js initiatives, improved performance and DX across multiple products.",
+      "Learned C and C++ to strengthen understanding of data structures, algorithms, and system-level concepts. Actively practiced competitive coding to improve analytical thinking and efficiency.",
   },
   {
-    year: "2019",
-    title: "Full Stack Developer",
+    year: "2021",
+    title: "Introduction to Programming",
     description:
-      "Built REST APIs with Node.js & Express, integrated frontend and backend systems.",
+      "Started learning Python and developed a strong foundation in programming logic, problem-solving, and computational thinking. Built small projects to understand core concepts and real-world applications.",
   },
 ];
 

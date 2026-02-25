@@ -15,8 +15,7 @@ const Hero = () => {
             That Matter.
           </h1>
           <p className="hero-subtitle">
-            I'm <span className="highlight">Nishant Kumar Pandey</span>, a full-stack engineer 
-            transforming ideas into scalable, high-performance web applications.
+            I'm <span className="highlight">Nishant Kumar Pandey</span>, a full-stack engineer with a focus on MERN stack development and AI integration. I transform ideas into scalable, high-performance web applications.
           </p>
 
           <div className="hero-actions">
@@ -30,16 +29,16 @@ const Hero = () => {
           
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number">5+</span>
+              <span className="stat-number">4+</span>
               <span className="stat-label">Years Exp.</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">50+</span>
+              <span className="stat-number">10+</span>
               <span className="stat-label">Projects</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">12k+</span>
-              <span className="stat-label">Students</span>
+              <span className="stat-number">3+</span>
+              <span className="stat-label">Competitive Achievements</span>
             </div>
           </div>
         </div>

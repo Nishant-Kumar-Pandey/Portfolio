@@ -19,9 +19,12 @@ function Contact() {
       .then(() => {
         setStatus("success");
         formRef.current.reset();
+        setTimeout(() => setStatus("idle"), 5000);
       })
-      .catch(() => {
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
         setStatus("error");
+        setTimeout(() => setStatus("idle"), 5000);
       });
   }
 
@@ -67,26 +70,25 @@ function Contact() {
           </ul>
         </div>
 
-        <form className="card contact-form" onSubmit={handleSubmit}>
+        <form className="card contact-form" ref={formRef} onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="from_name">Name</label>
             <input
-              id="name"
-              name="name"
+              id="from_name"
+              name="from_name"
               placeholder="Your name"
-              value={form.name}
-              onChange={handleChange}
+              required
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="reply_to">Email</label>
             <input
-              id="email"
-              name="email"
+              id="reply_to"
+              name="reply_to"
+              type="email"
               placeholder="you@example.com"
-              value={form.email}
-              onChange={handleChange}
+              required
             />
           </div>
 
@@ -97,13 +99,27 @@ function Contact() {
               name="message"
               rows="4"
               placeholder="How can I help?"
-              value={form.message}
-              onChange={handleChange}
+              required
             />
           </div>
 
-          <button className="btn primary full-width" type="submit">
-            Send Message
+          {status === "success" && (
+            <p style={{ color: "var(--accent, #6366f1)", marginBottom: "1rem" }}>
+              ✅ Message sent successfully!
+            </p>
+          )}
+          {status === "error" && (
+            <p style={{ color: "#ef4444", marginBottom: "1rem" }}>
+              ❌ Failed to send message. Please try again or email me directly.
+            </p>
+          )}
+
+          <button
+            className="btn primary full-width"
+            type="submit"
+            disabled={status === "sending"}
+          >
+            {status === "sending" ? "Sending..." : "Send Message"}
           </button>
         </form>
       </div>
