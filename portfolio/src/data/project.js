@@ -5,7 +5,7 @@ const project = [
     description:
       "An all-in-one healthcare platform tailored for elderly care. Features include real-time messaging, caregiver vetting, automated trust-building reviews, and secure profile management.",
     tech: ["MongoDB", "Express.js", "React", "Node.js"],
-    demo: "https://github.com/Nishant-Kumar-Pandey/Prescription",
+    demo: "https://care-nest-ten-woad.vercel.app/",
     code: "https://github.com/Nishant-Kumar-Pandey/CareNest",
   },
   {
