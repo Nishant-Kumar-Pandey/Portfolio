@@ -1,12 +1,12 @@
 const project = [
   {
-    title: "Prescription AI – Smart Health Assistant",
-    tagline: "AI-powered prescription analysis & explanation.",
+    title: "CareNest – Elderly Healthcare Platform",
+    tagline: "Comprehensive caregiving and healthcare assistance.",
     description:
-      "A MERN web app that lets users upload prescriptions and receive AI-generated plain-language explanations, dosage guidance, and drug interaction alerts.",
+      "An all-in-one healthcare platform tailored for elderly care. Features include real-time messaging, caregiver vetting, automated trust-building reviews, and secure profile management.",
     tech: ["MongoDB", "Express.js", "React", "Node.js"],
     demo: "",
-    code: "https://github.com/Nishant-Kumar-Pandey/Prescription",
+    code: "https://github.com/Nishant-Kumar-Pandey/CareNest",
   },
   {
     title: "AI Content Studio",
