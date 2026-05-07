@@ -27,16 +27,6 @@ const Projects = ({ projects }) => {
                 
                 <div className="project-footer">
                   <div className="project-links">
-                    {project.demo && (
-                      <a
-                        href={project.demo}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn-link primary"
-                      >
-                        Live Demo ↗
-                      </a>
-                    )}
                     {project.code && (
                       <a
                         href={project.code}
@@ -45,6 +35,16 @@ const Projects = ({ projects }) => {
                         className="btn-link secondary"
                       >
                         Source Code
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-link primary"
+                      >
+                        Live Demo ↗
                       </a>
                     )}
                   </div>
