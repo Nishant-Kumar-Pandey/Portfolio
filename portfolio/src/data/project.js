@@ -1,14 +1,5 @@
 const project = [
   {
-    title: "Ecom App – Full Stack E-Commerce",
-    tagline: "End-to-end online shopping experience.",
-    description:
-      "A complete e-commerce platform with product listings, user auth, cart management, order processing, and an admin dashboard — built on the MERN stack.",
-    tech: ["MongoDB", "Express.js", "React", "Node.js"],
-    demo: "",
-    code: "https://github.com/Nishant-Kumar-Pandey/Ecom-App",
-  },
-  {
     title: "Prescription AI – Smart Health Assistant",
     tagline: "AI-powered prescription analysis & explanation.",
     description:
@@ -18,15 +9,23 @@ const project = [
     code: "https://github.com/Nishant-Kumar-Pandey/Prescription",
   },
   {
-    title: "Calculator – MERN Stack",
-    tagline: "Full-stack calculator with history persistence.",
+    title: "AI Content Studio",
+    tagline: "AI-Powered Content Generation Agent.",
     description:
-      "A feature-rich calculator built on the MERN stack that saves calculation history per user, supports expression evaluation, and syncs across sessions.",
-    tech: ["MongoDB", "Express.js", "React", "Node.js"],
-    demo: "",
-    code: "https://github.com/Nishant-Kumar-Pandey/N-GFG/tree/main/React/calculator",
+      "An intelligent platform leveraging AI to streamline content creation. It assists users in generating high-quality text, managing digital assets, and optimizing workflows for modern creators.",
+    tech: ["React", "Next.js", "AI APIs", "Node.js"],
+    demo: "https://ai-content-studio-agent.vercel.app/",
+    code: "",
+  },
+  {
+    title: "BugZero AI",
+    tagline: "AI-Driven Automated Bug Tracking & Resolution.",
+    description:
+      "A smart issue tracking system that automatically analyzes error logs, categorizes bugs, and suggests potential code fixes using artificial intelligence, designed for seamless team collaboration.",
+    tech: ["React", "Express.js", "MongoDB", "AI Models"],
+    demo: "https://bugzero-ai.onrender.com",
+    code: "",
   },
 ];
 
-
-export default project
+export default project;
