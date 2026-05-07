@@ -15,7 +15,7 @@ const project = [
       "An intelligent platform leveraging AI to streamline content creation. It assists users in generating high-quality text, managing digital assets, and optimizing workflows for modern creators.",
     tech: ["React", "Next.js", "AI APIs", "Node.js"],
     demo: "https://ai-content-studio-agent.vercel.app/",
-    code: "",
+    code: "https://github.com/Nishant-Kumar-Pandey",
   },
   {
     title: "BugZero AI",
@@ -24,7 +24,7 @@ const project = [
       "A smart issue tracking system that automatically analyzes error logs, categorizes bugs, and suggests potential code fixes using artificial intelligence, designed for seamless team collaboration.",
     tech: ["React", "Express.js", "MongoDB", "AI Models"],
     demo: "https://bugzero-ai.onrender.com",
-    code: "",
+    code: "https://github.com/Nishant-Kumar-Pandey",
   },
 ];
 
